@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baixe o Ebook Grátis - Alavanque seu Patrimônio com Consórcios</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #2c3e50, #4ca1af);
+            color: white;
+            text-align: center;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 500px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        img {
+            width: 100%;
+            max-width: 300px;
+            margin-bottom: 20px;
+        }
+        .lead-form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            gap: 10px;
+        }
+        .lead-form input {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .lead-form button {
+            padding: 12px;
+            background: #f39c12;
+            border: none;
+            color: white;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .lead-form button:hover {
+            background: #e67e22;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <h1>Descubra Como Alavancar seu Patrimônio com Consórcios</h1>
+            <p>Baixe o nosso ebook gratuito e aprenda estratégias inteligentes para crescer financeiramente sem pagar juros abusivos!</p>
+            <img src="ebook-mockup.png" alt="Ebook Alavancagem Financeira com Consórcios">
+            <form action="submit-form.php" method="post" class="lead-form">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu E-mail" required>
+                <input type="tel" name="phone" placeholder="Seu Telefone" required>
+                <button type="submit">Baixar Agora</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
